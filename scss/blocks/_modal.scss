@@ -1,0 +1,106 @@
+.modals {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modals-active {
+    display: flex;
+
+}
+
+.modalhidden {
+    overflow: hidden;
+}
+
+.modalscroll {
+    overflow: auto;
+}
+
+.modal {
+    display: block;
+    padding: 56px 40px 40px 40px;
+    width: 100%;
+    max-width: 966px;
+    height: 594px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+}
+
+.modal-wrapper__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 41px;
+}
+
+.modal-wrapper__title-text {
+    @include typography-styles(normal,30px,41px,700,left,#000);
+    margin: 0;
+}
+
+.modal-wrapper__xmark-wrap {
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
+}
+
+.modal-wrapper__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-wrapper__username {
+    width: 100%;
+    max-width: 886px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding: 41px 90px 41px 128px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    @include typography-styles(normal,24px,33px,400,left,#000);
+    background-image: url("../../images/users.png");
+    background-repeat: no-repeat;
+    background-position: 50px center;
+    background-size: 25px 30px;
+
+}
+
+.modal-wrapper__password {
+    width: 100%;
+    max-width: 886px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding: 41px 90px 41px 128px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    @include typography-styles(normal,24px,33px,400,left,#000);
+    background-image: url("../../images/password.png");
+    background-repeat: no-repeat;
+    background-position: 50px center;
+    background-size: 25px 30px;
+}
+
+.modal-wrapper__btn {
+    padding: 41px 0;
+    background: #70908B;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    @include typography-styles(normal,24px,33px,700,center,#fff);
+}
+
+

@@ -1,0 +1,204 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 353px;
+    background-image: url("../images/herodesktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    width: 144px;
+    height: 36px;
+}
+
+.header-list {
+    @include list-unstyle;
+    width: 606px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bars {
+    display: none;
+    width: 31px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header-bar {
+    display: none;
+    width: 31px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header-list__item{
+    padding-bottom: 2px;
+    border-bottom: 3px solid transparent;
+    transition: 0.1s ease-in;
+
+}
+
+.header-list__item:hover{
+    padding-bottom: 2px;
+    transition: 0.1s ease-in;
+    border-bottom: 3px solid #fff;
+
+}
+
+.header-list__link {
+    @include typography-styles(normal,20px,132%,700,center,#fff);
+    @include link-unstyle;
+    font-family: 'Playfair Display';
+    letter-spacing: 0.05em;
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    @include list-unstyle;
+
+}
+
+.header-icon__item:not(:last-child) {
+    margin-right: 58px;
+}
+
+.header-wraptitle{
+    width: 100%;
+    max-width: 668px;
+    margin: 0;
+    padding-top: 274px;
+}
+
+.header-title {
+    @include typography-styles(normal,64px,85px,700,left,#07484A);
+    font-family: 'Playfair Display';
+    margin: 0;
+}
+
+.header-text {
+    @include typography-styles(normal,24px,33px,400,left,#07484A);
+    margin: 0;
+    padding: 54px 0;
+}
+
+.header-btn {
+    padding: 23px 54px;
+    background-color: #70908B;
+    border-radius: 10px;
+    border: none;
+    @include typography-styles(normal,24px,33px,700,center,#FDFBF8);
+    cursor: pointer;
+}
+
+@include desktop-first(1100px) {
+    .header{
+        padding-top: 26px;
+        padding-bottom: 176px;
+        background-image: url("../images/herolaptop.jpg");
+
+    }
+    
+   .header-navbar {
+    display: none;
+   }
+
+   .header-bar {
+    display: block;
+    width: 31px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header-wraptitle{
+    padding-top: 114px;
+    max-width: 608px;
+}
+
+
+.header-title {
+    @include typography-styles(normal,48px,62px,700,left,#07484A);
+}
+
+.header-text {
+    @include typography-styles(normal,24px,33px,400,left,#07484A);
+    padding: 16px 0 52px 0;
+}
+
+}
+
+
+@include desktop-first(710px) {
+    .header{
+        padding-top: 26px;
+        padding-bottom: 206px;
+        background-image: url("../images/herotablet.jpg");
+
+    }
+    
+   .header-navbar {
+    display: none;
+   }
+
+   .header-bar {
+    display: none;
+    width: 31px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+.header-bars {
+    display: block;
+    width: 31px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.header-logo {
+    width: 104px;
+    height: 26px;
+}
+
+.header-icon__item:not(:last-child) {
+    margin-right: 12px;
+}
+
+.header-icon__img {
+    width: 21px;
+    height: 21px;
+}
+
+.header-wraptitle{
+    padding-top: 154px;
+    max-width: 607px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.header-title {
+    @include typography-styles(normal,36px,52px,700,center,#07484A);
+}
+
+.header-text {
+    @include typography-styles(normal,18px,23px,400,center,#07484A);
+}
+
+.header-btn {
+    padding: 16px 40px;
+    margin: 0 auto;
+    @include typography-styles(normal,18px,23px,700,center,#FDFBF8);
+}
+
+}
