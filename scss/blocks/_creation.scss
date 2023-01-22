@@ -12,16 +12,16 @@
   border-radius: 0px 16px 16px 0px;
   height: 503px;
 }
-.own-creation__card--title {
+.own-creation__card-title {
   // width: 327px;
   margin: 0;
   @include typography-styles(normal, 48px, 120.6%, 700, left, #fdfbf8);
   font-family: "Playfair Display";
 }
-.own-creation__card--text {
+.own-creation__card-text {
   @include typography-styles(normal, 24px, 95.6%, 600, left, #fdfbf8);
 }
-.own-creation__card--more {
+.own-creation__card-more {
   @include typography-styles(normal, 18px, 95.6%, 700, left, #fdfbf8);
 }
 

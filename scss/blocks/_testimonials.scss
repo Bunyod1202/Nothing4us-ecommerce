@@ -22,15 +22,15 @@
 .testimonials__content {
   padding: 54px 137px 54px 97px;
 }
-.testimonials__content--text {
+.testimonials__content-text {
   @include typography-styles(normal, 36px, 49px, 400, left, #07484a);
 }
-.testimonials__content--title {
+.testimonials__content-title {
   margin-top: 65px;
   @include typography-styles(normal, 24px, 28px, 700, left, #07484a);
   margin-bottom: 11px;
 }
-.testimonials__content--ceo {
+.testimonials__content-ceo {
   margin: 0;
   @include typography-styles(normal, 24px, 28px, 300, left, #07484a);
   font-family: "Roboto";
@@ -123,7 +123,7 @@
   }
 }
 @include desktop-first(1402px) {
-  .testimonials__content--text {
+  .testimonials__content-text {
     @include typography-styles(normal, 28px, 42px, 400, left, #07484a);
   }
   .testimonials__img {
@@ -135,7 +135,7 @@
   .testimonials__content {
     padding: 54px 137px 54px 97px;
   }
-  .testimonials__content--text {
+  .testimonials__content-text {
     @include typography-styles(normal, 18px, 23px, 400, left, #07484a);
   }
 }

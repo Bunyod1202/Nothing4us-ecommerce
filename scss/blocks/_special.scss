@@ -17,7 +17,7 @@
 }
 
 .special__item {
-	margin-right: auto;
+	margin-right: 20px;
 }
 
 .special__item-img {
@@ -64,10 +64,10 @@
 	max-width: 620px;
 	margin-bottom: 40px;
 }
-.spcial__desc-title {
+.special__desc-title {
 	margin: 0;
 	margin-bottom: 15px;
-	@include typography-styles(normal, 24px, 115%, 700, left, #07484a);
+	@include typography-styles(normal, 24px, 115%, 700, left, #445253);
 	letter-spacing: -0.02em;
 }
 .special__text {

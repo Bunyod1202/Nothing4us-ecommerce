@@ -119,10 +119,6 @@ elXmarkModal.addEventListener("click", function(evt) {
 })
 
 
-
-
-})
-
 $('.testimonials-owl-carousel').owlCarousel({
   loop: true,
   margin: 32,
