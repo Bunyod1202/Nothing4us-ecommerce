@@ -1,19 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet"
-  href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
-<link rel="stylesheet"
-  href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+    href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="./css/main.min.css">
+
 <body>
   <header></header>
   <main>
-    <section></section>
+    <section class="category">
+      <div class="container">
+        <h2 class="category__title">Explore by Category</h2>
+        <div class="category__box">
+          <div class="category__content">
+            <form class="category__search" action="https://echo.htmlacademy.ru/courses">
+              <input class="category__search-input" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <ul class="category__tab tab">
+              <li class="tab__item tab__item--active">
+                <a class="tab__link" href="#panel1"> Bedroom</a>
+              </li>
+              <li class="tab__item">
+                <a class="tab__link" href="#panel2">Dinning Room</a>
+              </li>
+              <li class="tab__item">
+                <a class="tab__link" href="#panel3">Meeting Room</a>
+              </li>
+              <li class="tab__item">
+                <a class="tab__link" href="#panel4"> Workspace</a>
+              </li>
+              <li class="tab__item">
+                <a class="tab__link" href="#panel5"> Living Room</a>
+              </li>
+              <li class="tab__item">
+                <a class="tab__link" href="#panel6"> Kitchen</a>
+              </li>
+              <li class="tab__item">
+                <a class="tab__link" href="#panel7"> Living Space</a>
+              </li>
+            </ul>
+            <div class="category__link-box">
+              <a class="category__link" href="#">All Categories</a>
+            </div>
+          </div>
+
+          <div class="category__panel-box">
+            <ul class="category__panel panel">
+              <li class="panel__item panel__item--active" id="panel1">
+                <div>
+                  <ul class="panel__list">
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/diningroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/restroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/meetingroom.png"
+                        alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/kitchen.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="panel__item" id="panel2">
+                <div>
+                  <ul class="panel__list">
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/diningroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/restroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/meetingroom.png"
+                        alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/kitchen.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="panel__item" id="panel3">
+                <div>
+                  <ul class="panel__list">
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/livingroom.png" alt="bedroom">
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/diningroom.png" alt="bedroom">
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/restroom.png" alt="bedroom">
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/livingroom.png" alt="bedroom">
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/meetingroom.png"
+                        alt="bedroom">
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/kitchen.png" alt="bedroom">
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="panel__item" id="panel4">
+                <div>
+                  <ul class="panel__list">
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/diningroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/restroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/meetingroom.png"
+                        alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/kitchen.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="panel__item" id="panel5">
+                <div>
+                  <ul class="panel__list">
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/diningroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/restroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/meetingroom.png"
+                        alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/kitchen.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="panel__item" id="panel6">
+                <div>
+                  <ul class="panel__list">
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/diningroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/restroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/meetingroom.png"
+                        alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/kitchen.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <li class="panel__item" id="panel7">
+                <div>
+                  <ul class="panel__list">
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/diningroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/restroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/livingroom.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/meetingroom.png"
+                        alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                    <li class="panel__list-item">
+                      <img class="panel__list-img" width="589" height="321" src="./images/kitchen.png" alt="bedroom">
+                      <div class="panel__list-item-elemet">
+                        <p class="panel__element-title">Bedroom</p>
+                        <button class="panel__element-btn">Explore</button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer></footer>
   <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
@@ -21,4 +388,5 @@
 
   <script src="./js/main.js"></script>
 </body>
+
 </html>
