@@ -9,6 +9,7 @@
   margin: 0;
   margin-bottom: 58px;
   @include typography-styles(normal, 64px, 85px, 700, center, #07484a);
+  font-family: 'Playfair Display';
 }
 .item-compact-cars {
   width: 430.75px;
@@ -90,14 +91,14 @@
 .content__title {
   margin-top: 40px;
   @include typography-styles(normal, 24px, 36px, 700, left, #70908b);
-  font-family: "Open Sans";
+
 }
 .content__text {
   @include typography-styles(normal, 18px, 25px, 400, left, #70908b);
 }
 .content__price {
   @include typography-styles(normal, 24px, 32.68px, 700, left, #70908b);
-  font-family: "Open Sans";
+
 }
 .item-color-1 {
   background-color: #caf3e5;
