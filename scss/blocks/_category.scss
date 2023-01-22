@@ -3,6 +3,7 @@
 }
 .category__title {
 	margin: 0;
+	padding-top: 100px;
 	margin-bottom: 99px;
 	font-family: "Playfair Display";
 	@include typography-styles(normal, 64px, 85px, 700, center, #07484a);
