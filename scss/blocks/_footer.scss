@@ -1,1 +1,152 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 32px;
+}
 
+.footer-wrapper {
+    display: flex;
+    align-items: start;
+}
+
+.footer-wrapper__left {
+    margin-right: 220px;
+}
+
+.footer-wrapper__logo-wrap {
+    width: 100%;
+    max-width: 405px;
+    margin: 0;
+}
+
+.footer-wrapper__href {
+    width: 136px;
+    height: 36px;
+}
+
+.footer-wrapper__icons-item {
+    margin-right: 36px;
+}
+
+.footer-wrapper__icons {
+    @include list-unstyle;
+    width: 100%;
+    max-width: 327px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+}
+
+.footer-wrapper__address {
+    @include typography-styles(normal,18px,30px,700,left,#07484A)
+}
+
+.footer-wrapper__tel {
+    @include typography-styles(normal,18px,25px,700,left,#07484A)
+}
+
+.footer-wrapper__address-span {
+    @include typography-styles(normal,18px,25px,700,left,#07484A);
+    display: block;
+}
+
+
+.footer-wrapper__right {
+    width: 100%;
+    max-width: 1115px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+.footer-wrapper__strong {
+    @include typography-styles(normal,18px,25px,700,left,#07484A);
+}
+
+.footer-wrapper__lists {
+    @include list-unstyle;
+    padding-top: 30px;
+}
+
+.footer-wrapper__list:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer-wrapper__link {
+    @include typography-styles(normal,18px,30px,400,left,#07484A);
+    @include link-unstyle;
+}
+
+.footer-writing {
+    padding-top: 69px;
+}
+
+.footer-copywriting {
+    @include typography-styles(normal,18px,25px,400,left,#07484A);
+    margin: 0;
+}
+
+@include desktop-first(1100px) {
+
+    .footer-wrapper__left {
+        margin-right: 60px;
+    }
+
+}
+
+
+@include desktop-first(940px) {
+
+    .footer-wrapper__left {
+        margin-right: 0px;
+        margin-bottom: 100px;
+    }
+
+    .footer-wrapper__list:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 101px;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+
+    .footer-wrapper__right {
+        width: 100%;
+        max-width: 940px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-wrap: wrap;
+
+    }
+ 
+    .footer-wrapper__list{
+        width: 50%;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@include desktop-first(710px) {
+
+    .footer-writing {
+        padding-top: 0px;
+    }
+    
+    .footer-copywriting {
+        @include typography-styles(normal,14px,18px,400,center,#07484A);
+        margin: 0;
+    }
+    
+
+}

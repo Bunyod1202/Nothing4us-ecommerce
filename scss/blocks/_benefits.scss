@@ -1,0 +1,198 @@
+.benefits {
+    padding-bottom: 110px;
+    background-color: #E0EFF6;
+}
+
+.benefits-wrapper {
+    padding-top: 100px;
+
+}
+
+.benefits-wrapper__title-wrap {
+    padding-bottom: 114px;
+    text-align: center;
+}
+
+.benefits-wrapper__title {
+    @include typography-styles(normal,64px,85px,700,center,#07484A);
+    margin: 0;
+    font-family: 'Playfair Display';
+}
+
+.benefits-list {
+    @include list-unstyle;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1348px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+
+.benefits-list__item {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    max-width: 289px;
+
+    &:nth-child(1):before{
+        content: "";
+        width: 108px;
+        height: 108px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        background-image: 
+         url("../images/paymentmethod.svg");
+        background-size: 68px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #EEEBFF;
+        border-radius: 24px;
+    }
+
+}
+
+.benefits-list__item:nth-child(2) {
+    margin: 0;
+    width: 100%;
+    max-width: 287px;
+}
+
+.benefits-list__item:nth-child(3) {
+    margin: 0;
+    width: 100%;
+    max-width: 308px;
+}
+
+.benefits-list__item:nth-child(2)::before {
+    content: "";
+    width: 108px;
+    height: 108px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    background-image: 
+     url("../images/returnpolice.svg");
+    background-size: 68px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF4E7;
+    border-radius: 24px;
+}
+
+.benefits-list__item:nth-child(3)::before {
+    content: "";
+    width: 108px;
+    height: 108px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 42px;
+    background-image: 
+     url("../images/customersupport.svg");
+    background-size: 68px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #CAF3E5;
+    border-radius: 24px;
+    text-align: center
+}
+
+
+
+.benefits-list__item-title {
+    @include typography-styles(normal,36px,48px,700,center,#07484A);
+    font-family: 'Playfair Display';
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+.benefits-list__item-title:nth-child(3) {
+    padding-bottom: 42px;
+}
+
+.benefits-list__item-text {
+    @include typography-styles(normal,24px,33px,400,center,#07484A);
+    margin: 0;
+}
+
+@include desktop-first(1000px) {
+    .benefits {
+        padding-bottom: 100px;
+        background-color: #E0EFF6;
+    }
+    
+    .benefits-wrapper__title-wrap {
+        padding-bottom: 104px;
+        text-align: center;
+    }
+
+    .benefits-wrapper__title {
+        @include typography-styles(normal,48px,62px,700,center,#07484A);
+    }
+
+    .benefits-list__item:nth-child(1) {
+        max-width: 314px;
+    }
+
+    .benefits-list__item:nth-child(2) {
+        max-width: 314px;
+    }
+    
+    
+    .benefits-list__item:nth-child(3) {
+        max-width: 314px;
+
+    };
+
+    .benefits-list__item-title {
+        @include typography-styles(normal,24px,36px,700,center,#07484A);
+        font-family: 'Playfair Display';
+    }
+    
+    .benefits-list__item-text {
+        @include typography-styles(normal,18px,23px,400,center,#07484A);
+    }
+}
+
+
+
+@include desktop-first(710px) {
+
+    .benefits {
+        padding-bottom: 80px;
+    }
+    
+    .benefits-wrapper {
+        padding-top: 80px;
+    
+    }
+    
+    .benefits-wrapper__title {
+        @include typography-styles(normal,28px,42px,700,center,#07484A);
+    }
+    
+    .benefits-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .benefits-list__item:nth-child(1) {
+        padding-bottom: 60px;
+
+     
+    }
+
+    .benefits-list__item:nth-child(2) {
+        padding-bottom: 60px;
+
+     
+    }
+
+
+}
