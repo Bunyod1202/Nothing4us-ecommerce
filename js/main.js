@@ -29,6 +29,7 @@ $('.hero-owl-carousel').owlCarousel({
   autoplay: true,
   autoplayTimeout: 4000,
   autoplayHoverPause: true,
+  smartSpeed:500,
   loop: true,
   responsive: {
     0: {
@@ -72,6 +73,40 @@ $('.hero-owl-carousel').owlCarousel({
     1732: {
       items: 3.5,
       nav: true,
+
+    },
+  }
+
+})
+
+$('.testimonials-owl-carousel').owlCarousel({
+  loop: true,
+  margin: 32,
+  nav: true,
+  dots: true,
+  smartSpeed:700,
+  responsiveClass: true,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  autoplayHoverPause: true,
+  loop: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    670: {
+      items: 1,
+
+    },
+    
+    1037: {
+      items: 1,
+
+
+},
+  1223: {
+      items:1,
+
 
     },
   }
