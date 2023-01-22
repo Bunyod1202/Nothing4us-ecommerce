@@ -5,6 +5,11 @@
   background-position: calc(50% - 901px) calc(50% - -7px);
   padding-bottom: 100px;
 }
+.title {
+  margin: 0;
+  @include typography-styles(normal, 64px, 85px, 700, center, #07484a);
+  font-family: 'Playfair Display';
+}
 .popular-products__title {
   margin: 0;
   margin-bottom: 58px;
@@ -13,7 +18,7 @@
 }
 .item-compact-cars {
   width: 430.75px;
-  height: 669px;
+  height: 585px;  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -158,4 +163,7 @@
   .btn-group {
     margin-top: 60px;
   }
+}
+.img-carousel {
+  height: 279px;
 }
