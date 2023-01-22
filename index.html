@@ -13,8 +13,96 @@
   <link rel="stylesheet" href="./css/main.min.css">
 
 <body>
-  <header>
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header-bars">
+          <img class="header-barsburger"  src="./images/burger.svg" width="31" height="24"  
+           alt="burger">
+        </div>
+        <div class="header-logo">
+          <a class="header-logo__img"  href="#">
+            <img src="./images/headerlogo.svg" width="144" height="36" alt="header logo">
+          </a>
+        </div>
+        <div class="header-bar">
+          <img class="header-bar__burger"  src="./images/burger.svg" width="31" height="24"  
+           alt="burger">
+        </div>
+        <nav class="header-navbar">
+          <ul class="header-list">
+  
+            <li class="header-list__item">
+              <a class="header-list__link"  href="#">
+                Home
+              </a>
+            </li>
+  
+            <li class="header-list__item">
+              <a class="header-list__link"  href="#">
+                Products
+              </a>
+            </li>
+            
+            <li class="header-list__item">
+              <a class="header-list__link"  href="#">
+                Categories
+              </a>
+            </li>
+            
+            <li class="header-list__item">
+              <a class="header-list__link"  href="#">
+                About
+              </a>
+            </li>
+            
+            <li class="header-list__item">
+              <a class="header-list__link"  href="#">
+                Contact Us
+              </a>
+            </li>
+  
+          </ul>
+        </nav>
+     
+        <ul class="header-icon">
 
+          <li class="header-icon__item">
+            <a class="header-icon__link"  href="#">
+              <img class="header-icon__img"  src="./images/headerseach.svg" 
+               width="27" height="27"  alt="header search">
+            </a>
+          </li>
+          
+          <li class="header-icon__item">
+            <p class="header-icon__link"  >
+              <img class="header-icon__img"  
+               src="./images/headercorzina.svg" 
+               width="27" height="27"  alt="header corzina">
+            </p>
+          </li>
+            
+          <li class="header-icon__item">
+            <div class="header-icon__profile">
+              <a class="header-icon__link"  href="#">
+                <img class="header-icon__img"  
+                 src="./images/headerprofile.svg" 
+                 width="26" height="26"  alt="header profile">
+              </a>
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+      <div class="header-wraptitle">
+        <h1 class="header-title">Exclusive Deals of Furniture 
+           Collection</h1>
+           <p class="header-text">Explore different categories. Find the 
+             best deals.</p>
+             <button class="header-btn" type="button">Shop Now</button>
+      </div>
+    </div>
   </header>
   <main class="site-main">
   <section class="popular-products">
@@ -340,6 +428,96 @@
     </div>
   </footer>
 
+<div class="modals">
+  <div class="modal">
+    <div class="modal-wrapper">
+        <div class="modal-wrapper__title">
+          <p class="modal-wrapper__title-text">Registraton</p>
+          <div class="modal-wrapper__xmark-wrap">
+            <img class="modal-wrapper__xmark"  src="./images/xmark.svg" width="54" 
+             height="54" alt="xmark">
+          </div>
+        </div>
+        <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off" 
+         class="modal-wrapper__form">
+          <label for="userName" >
+            <input class="modal-wrapper__username"  type="text" id="userName"  placeholder="User Name" name="UserName" required>
+          </label>
+          <label for="password">
+            <input class="modal-wrapper__password"  type="password" id="password"  placeholder="Password" name="Password" required>
+          </label>
+          <button type="submit" class="modal-wrapper__btn">Log in</button>
+        </form>
+    </div>
+  </div>
+</div>
+
+  <div class="header-modal">
+    <div class="header-modal__mark">
+      <img src="./images/xmark.svg" width="24" height="24" alt="xmark">
+    </div>
+    <ul class="header-modal__lists">
+      <li class="header-modal__home">
+          <a class="header-modal__link" href="#">Home</a>
+      </li>
+
+      <li class="header-modal__home">
+        <a class="header-modal__link" href="#">Products</a>
+    </li>
+
+    <li class="header-modal__home">
+      <a class="header-modal__link" href="#">Category</a>
+  </li>
+
+  <li class="header-modal__home">
+    <a class="header-modal__link" href="#">About us</a>
+</li>
+
+<li class="header-modal__home">
+  <a class="header-modal__link" href="#">Contact</a>
+</li>
+
+    </ul>
+
+    <ul class="header-modal__listss">
+      <li class="header-modal__homes">
+          <a class="header-modal__links" href="#">Home</a>
+      </li>
+
+      <li class="header-modal__homes">
+        <a class="header-modal__links" href="#">Products</a>
+    </li>
+
+    <li class="header-modal__homes">
+      <a class="header-modal__links" href="#">Category</a>
+  </li>
+
+  <li class="header-modal__homes">
+    <a class="header-modal__links" href="#">About us</a>
+</li>
+
+<li class="header-modal__homes">
+  <a class="header-modal__links" href="#">Contact</a>
+</li>
+
+    </ul>
+
+    <ul class="header-modal__listsss">
+      <li class="header-modal__homes">
+          <a class="header-modal__links" href="#">Dinning room</a>
+      </li>
+
+      <li class="header-modal__homes">
+        <a class="header-modal__links" href="#">Bedroom</a>
+    </li>
+
+    <li class="header-modal__homes">
+      <a class="header-modal__links" href="#">All Products</a>
+  </li>
+
+    </ul>
+
+  </div>
   <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
   <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
 
